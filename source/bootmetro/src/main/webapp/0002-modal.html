@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+
+<link type="text/css" rel="stylesheet"
+	href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"></link>
+<link href="css/bootmetro/bootstrap.css" type="text/css" rel="stylesheet"></link>
+<link href="css/bootmetro/bootstrap-responsive.css" type="text/css" rel="stylesheet"></link>
+<link href="css/bootmetro/bootmetro.css" type="text/css" rel="stylesheet"></link>
+<link href="css/bootmetro/bootmetro-tiles.css" type="text/css" rel="stylesheet"></link>
+<link href="css/bootmetro/bootmetro-charms.css" type="text/css" rel="stylesheet"></link>
+<link href="css/bootmetro/icomoon.css" type="text/css" rel="stylesheet"></link>
+
+<!--link href="css/bootmetro/metro-ui-dark.css" type="text/css" rel="stylesheet"></link-->
+<link href="css/bootmetro/metro-ui-light.css" type="text/css" rel="stylesheet"></link>
+
+<script type="text/javascript" src="js/jquery/jquery.js"></script>
+<script type="text/javascript" src="js/bootmetro/bootstrap.min.js"></script>
+</head>
+<body>
+	<a class="btn btn-primary btn-large" data-target="#classic-modal" href="javascript:void(0);"
+		data-toggle="modal">Show Flyout (classic modal)</a>
+
+	<a class="btn btn-success btn-large" href="#message-modal" data-toggle="modal">Show Metro
+		Message</a>
+
+	<a class="btn btn-warning btn-large" href="#error-modal" data-toggle="modal">Show Error/Warning</a>
+
+	<div id="classic-modal" class="modal hide fade" aria-hidden="true" aria-labelledby="myModalLabel"
+		role="dialog" tabindex="-1" style="display: none;">
+		<div class="modal-header">
+			<button class="close" aria-hidden="true" data-dismiss="modal" type="button"></button>
+			<h3 id="myModalLabel">Modal Heading</h3>
+		</div>
+		<div class="modal-body">
+			<h4>Text in a modal</h4>
+			<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem.</p>
+			<h4>Popover in a modal</h4>
+			<p>
+			<h4>Tooltips in a modal</h4>
+			<p>
+			<hr>
+			<h4>Overflowing text to show optional scrollbar</h4>
+			<p>
+			<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
+				in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus
+				vel augue laoreet rutrum faucibus dolor auctor.</p>
+			<p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+				scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor
+				fringilla.</p>
+			<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
+				in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus
+				vel augue laoreet rutrum faucibus dolor auctor.</p>
+			<p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+				scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor
+				fringilla.</p>
+		</div>
+		<div class="modal-footer">
+			<button class="btn" data-dismiss="modal">Close</button>
+			<button class="btn btn-primary">Save changes</button>
+		</div>
+	</div>
+
+
+	<div id="message-modal" class="modal message hide fade" aria-hidden="true"
+		aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: none;">
+		<div class="modal-header">
+			<button class="close" aria-hidden="true" data-dismiss="modal" type="button"></button>
+			<h3>Modal Heading</h3>
+		</div>
+		<div class="modal-body">
+			<h4>Text in a modal</h4>
+			<p>Do you want to turn on location services so Microsoft can use your location ?</p>
+		</div>
+		<div class="modal-footer">
+			<button class="btn" data-dismiss="modal">Close</button>
+			<button class="btn btn-primary">Save changes</button>
+		</div>
+	</div>
+
+
+	<div id="error-modal" class="modal warning bg-color-blu hide fade" aria-hidden="true"
+		aria-labelledby="myModalLabel" role="dialog" tabindex="-1" style="display: none;">
+		<div class="modal-body">
+			<p>The new product cannot be saved due to an error. A log message has been emailed to you.</p>
+		</div>
+		<div class="modal-footer">
+			<button class="btn btn-large" data-dismiss="modal">Close</button>
+		</div>
+	</div>
+</body>
+</html>
